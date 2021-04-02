@@ -6,6 +6,8 @@ COMMON
 
 body {
     font-family: "monospace", sans-serif;
+    background-color: #000000;
+    color: #ffffff !important;
 }
 
 .font-primary {
@@ -16,6 +18,28 @@ body {
     font-size: 20px;
 }
 
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+a.font-white {
+    color: #FFFFFF !important;
+}
+
+.navbar .container .navbar-brand {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.collapse li a {
+    font-weight: bold;
+}
 
 /**************
 
@@ -62,5 +86,36 @@ ABOUT
 }
 
 #about .icons a {
+    color: #00ABAE;
+}
+
+
+/**************
+
+PROJECTS
+
+**************/
+
+#project {
+    margin: 60px auto;
+    width: 80%;
     color: #000000;
+}
+
+#project .card {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#project h2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#project .card img {
+    width: 100%;
+}
+
+#project .card-title {
+    font-weight: bold;
 }
