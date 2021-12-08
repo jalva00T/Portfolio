@@ -121,6 +121,11 @@ PROJECTS
     width: 100%;
 }
 
+#project .card img:hover {
+    width: 100%;
+    transform: scale(1.20);
+}
+
 #project .card-title {
     font-weight: bold;
 }
