@@ -129,3 +129,14 @@ PROJECTS
 #project .card-title {
     font-weight: bold;
 }
+
+/**************
+
+VIDEO
+
+**************/
+
+video {
+    height: 320px; 
+    width: 320px;
+}
